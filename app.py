@@ -38,7 +38,7 @@ def cevap_ver(b):
     elif a == 69:
         return "annen sever 69"
     elif 0 < a < 18:
-        return "niye",a,"kanka sevgilinin yaşı mı"
+        return f"niye {a} kanka sevgilinin yaşı mı"
     # 4) Genel durum: soru eki
     elif son in (0, 6):
         return f"Tuttuğunuz sayı {a} mı?????"
